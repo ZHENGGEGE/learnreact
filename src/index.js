@@ -13,6 +13,8 @@ import {
   import Dashbord from './Dashbord'
   import Auth from './Auth'
   import App from './App'
+  import './config'
+  import 'antd-mobile/dist/antd-mobile.css';
 
 
 const reduxDevtools = window.devToolsExtension ? window.devToolsExtension():f => f
